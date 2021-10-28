@@ -32,7 +32,6 @@
     .buttons{
         display: grid;
         grid-template-columns: auto auto auto auto;
-         background-color: #bdbdbd;
     }
     .buttons button{
         width: 80px;
@@ -43,6 +42,7 @@
         transition: .2s linear all;
         border-radius: 8px;
         margin: 4px;
+        background-color: #bdbdbd;
     }
     .buttons button:hover{
         background-color: #e0e0e0;
@@ -51,10 +51,7 @@
     .buttons button:active{
         background-color: #bdbdbd;
     }
-    .equal{
-        background-color: #f57f17;
-    }
-
+   
     @media (max-height:550px) 
     {
         .buttons button{
