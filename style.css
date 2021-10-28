@@ -42,7 +42,6 @@
         transition: .2s linear all;
         border-radius: 8px;
         margin: 4px;
-        background-color:#bdbdbd;
     }
     .buttons button:hover{
         background-color: #e0e0e0;
