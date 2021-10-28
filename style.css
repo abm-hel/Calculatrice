@@ -32,6 +32,7 @@
     .buttons{
         display: grid;
         grid-template-columns: auto auto auto auto;
+         background-color: #bdbdbd;
     }
     .buttons button{
         width: 80px;
