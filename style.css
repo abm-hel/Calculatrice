@@ -1,0 +1,87 @@
+    @import url('https://fonts.googleapis.com/css?family=Nunito|Nunito+Sans&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    body{
+        background-color:black;
+    }
+
+   .calc_body{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        background-color: black;
+        border-radius: 8px;
+       
+    }
+    .result{
+    background-color: #212121;
+    color: #fafafa;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 2.5rem;
+    margin: 3px;
+    border : solid;
+    border-color: orange;
+    }
+    .buttons{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    .buttons button{
+        width: 80px;
+        height: 80px;
+        border: none;
+        font-size: 1.5rem;
+        text-align: center;
+        transition: .2s linear all;
+        border-radius: 8px;
+        margin: 4px;
+    }
+    .buttons button:hover{
+        background-color: #e0e0e0;
+        
+    }
+    .buttons button:active{
+        background-color: #bdbdbd;
+    }
+    .equal{
+        background-color: #f57f17;
+    }
+
+
+ 
+
+    @media (max-height:550px) 
+    {
+        .buttons button{
+            width: 65px;
+            height: 32px;
+        }
+
+        .result{
+            height: 20px;
+            padding: 15px;
+            font-size: 1.5rem;
+        }
+    }
+
+    @media (max-width:375px)
+    {
+        .buttons button{
+            width: 65px;
+            height: 65px;
+        }
+
+        .result{
+            height: 30px;
+            padding: 15px;
+            font-size: 1.5rem;
+        }
+        
+    }
