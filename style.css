@@ -42,6 +42,7 @@
         transition: .2s linear all;
         border-radius: 8px;
         margin: 4px;
+        background-color:#bdbdbd;
     }
     .buttons button:hover{
         background-color: #e0e0e0;
@@ -53,9 +54,6 @@
     .equal{
         background-color: #f57f17;
     }
-
-
- 
 
     @media (max-height:550px) 
     {
