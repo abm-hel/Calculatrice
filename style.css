@@ -52,13 +52,7 @@
         
       
     }
-    .buttons button:hover{
-        background-color: #e0e0e0;
-        
-    }
-    .buttons button:active{
-        background-color: #bdbdbd;
-    }
+
     .button-op{
         background-color: #F5B041;
         color: white;
