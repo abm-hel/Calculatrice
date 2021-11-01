@@ -18,7 +18,8 @@
         background-color: black;
         border-radius: 8px;
         caret-color:transparent;
-        
+        border: solid;
+        border-color: white;
     }
 
  
@@ -26,11 +27,10 @@
         background-color:black;
         color: #fafafa;
         padding: 20px;
-        font-size: 5rem;
+        font-size: 2.5rem;
         margin: 3px;
         width: 300px;
         border: none;
-        text-align: right;
     }
 
 
@@ -46,16 +46,21 @@
         font-size: 1.8rem;
         text-align: center;
         transition: .2s linear all;
-        border-radius: 50px;
+        border-radius: 8px;
         margin: 4px;
      
         
       
     }
-
+    .buttons button:hover{
+        background-color: #e0e0e0;
+        
+    }
+    .buttons button:active{
+        background-color: #bdbdbd;
+    }
     .button-op{
         background-color: #F5B041;
-        color: white;
     }
 
     .button-a{
@@ -80,7 +85,7 @@
         .screen{
             height: 20px;
             padding: 15px;
-            font-size: 2.5rem;
+            font-size: 1.5rem;
             width: 240px;
         }
     }
@@ -95,7 +100,7 @@
         .screen{
             height: 30px;
             padding: 15px;
-            font-size: 4rem;
+            font-size: 1.5rem;
             width: 250px;
         }
         
