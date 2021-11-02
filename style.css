@@ -79,16 +79,6 @@
         background-color: #424949;
     }
 
-     footer{
-        text-align: center;
-        font-size: 18px;
-        font-family: 'Montserrat', sans-serif;
-        color: #fff;
-        margin-top: 10px;
-        margin-bottom: 5px;
-    }
-   
-
     @media (max-height:550px) 
     {
         .buttons button{
