@@ -39,6 +39,7 @@
         display: grid;
         grid-template-columns: auto auto auto auto;
     }
+
     .buttons button{
         width: 80px;
         height: 80px;
@@ -46,7 +47,7 @@
         font-size: 1.8rem;
         text-align: center;
         transition: .2s linear all;
-        border-radius: 8px;
+        border-radius: 50px;
         margin: 4px;
      
         
@@ -59,8 +60,13 @@
     .buttons button:active{
         background-color: #bdbdbd;
     }
-    .button-op{
+      .button-op{
         background-color: #F5B041;
+        color: white;
+    }
+
+    .button-fonc{
+        background-color: #D0D3D4;
     }
 
     .button-a{
